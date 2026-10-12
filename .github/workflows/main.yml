@@ -15,6 +15,9 @@ jobs:
           fetch-depth: 0 # 拉取完整历史
       - uses: Saber2pr/wiki-builder@v0.0.96
         with:
+          cname: saber2pr.top
+          ignoreCnameFile: true
+          basename: /zh
           expandAllMenu: on
           title: 科技爱好者周刊，每周五发布
           keywords: ai,tech,news
